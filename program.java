@@ -9,7 +9,9 @@ class program
             {
                 System.out.print(board[i][j]+"  ");
                 if((j+1) % 3 == 0 && j < 6)
+                {
                     System.out.print("| ");
+                }
             }
             System.out.println();
             if((i+1) % 3 == 0 && i < 6)
